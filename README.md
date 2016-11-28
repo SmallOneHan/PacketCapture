@@ -13,12 +13,14 @@ sudo make install
 sudo cp libpcap.so.1.7.4 /usr/lib/libpcap.so.1
 ```
 
-## 编译
-```make```
+## 编译执行
+```
+make
+```
 生成可执行文件PacketsCapture
-
-## 执行
-```sudo ./PacketsCapture```
+```
+sudo ./PacketsCapture
+```
 
 
 使用方法即源码结构参考 introduction.doc Libpcap-Libnet.pdf
